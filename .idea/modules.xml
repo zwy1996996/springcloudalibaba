@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaServiceA/eurekaServiceA.iml" filepath="$PROJECT_DIR$/eurekaServiceA/eurekaServiceA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaServiceB/eurekaServiceB.iml" filepath="$PROJECT_DIR$/eurekaServiceB/eurekaServiceB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaServiceC/eurekaServiceC.iml" filepath="$PROJECT_DIR$/eurekaServiceC/eurekaServiceC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign/feign.iml" filepath="$PROJECT_DIR$/feign/feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateWay/gateWay.iml" filepath="$PROJECT_DIR$/gateWay/gateWay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix/hystrix.iml" filepath="$PROJECT_DIR$/hystrix/hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resilience4j/resilience4j.iml" filepath="$PROJECT_DIR$/resilience4j/resilience4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ribbo/ribbo.iml" filepath="$PROJECT_DIR$/ribbo/ribbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springCloud.iml" filepath="$PROJECT_DIR$/.idea/springCloud.iml" />
+    </modules>
+  </component>
+</project>

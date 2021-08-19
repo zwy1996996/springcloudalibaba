@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hystrix" />
+        <module name="eureka" />
+        <module name="eurekaServiceA" />
+        <module name="gateWay" />
+        <module name="feign" />
+        <module name="eurekaServiceB" />
+        <module name="ribbo" />
+        <module name="eurekaServiceC" />
+        <module name="resilience4j" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka" target="1.8" />
+      <module name="eurekaB" target="1.8" />
+      <module name="eurekaServiceA" target="1.8" />
+      <module name="eurekaServiceB" target="1.8" />
+      <module name="eurekaServiceC" target="1.8" />
+      <module name="feign" target="1.8" />
+      <module name="gateWay" target="1.8" />
+      <module name="hystrix" target="1.8" />
+      <module name="resilience4j" target="1.8" />
+      <module name="ribbo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka" options="-parameters" />
+      <module name="eurekaB" options="-parameters" />
+      <module name="eurekaServiceA" options="-parameters" />
+      <module name="eurekaServiceB" options="-parameters" />
+      <module name="eurekaServiceC" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="gateWay" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
+      <module name="resilience4j" options="-parameters" />
+      <module name="ribbo" options="-parameters" />
+    </option>
+  </component>
+</project>
