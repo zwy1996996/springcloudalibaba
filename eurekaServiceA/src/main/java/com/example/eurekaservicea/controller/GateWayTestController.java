@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * TODO
- *
+ *用于gateway测试的controller
  * @author Administrator
  * @date 2021/8/17
  */

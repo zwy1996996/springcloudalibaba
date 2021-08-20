@@ -2,7 +2,7 @@ server:
   port: ${PROT:8092}
 spring:
   application:
-    name: eurekaService
+    name: eureka-service
 
 eureka:
   client:

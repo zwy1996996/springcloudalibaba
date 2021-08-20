@@ -1,0 +1,10 @@
+spring:
+  application:
+    #与nacos配置的dataid一直
+    name: nacos-provider-config-more
+  cloud:
+    nacos:
+      config:
+        #与需要的配置文件类型一直
+        file-extension: yml
+        server-addr: 127.0.0.1:8848

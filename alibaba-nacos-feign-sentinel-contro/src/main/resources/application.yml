@@ -1,0 +1,26 @@
+server:
+  port: 8045
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        port: 8720
+        #注册到sentinel地址
+        dashboard: 127.0.0.1:8046
+  application:
+    name: feign-sentinel-contro
+
+#Sentinel 适配了 Feign 组件,开 启 sentinel 熔 断
+feign:
+  sentinel:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

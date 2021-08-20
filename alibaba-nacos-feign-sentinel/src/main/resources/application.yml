@@ -1,0 +1,21 @@
+server:
+  port: 8044
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: feign-sentinel
+
+#Sentinel 适配了 Feign 组件,开 启 sentinel 熔 断
+feign:
+  sentinel:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
